@@ -39,5 +39,28 @@ def print_permutations(s):
     for p in perms:
         print("".join(p))
 
-word = input("Введите строку: ")
+word = input("the word:")
 print_permutations(word)
+
+def reverse_words(sentence):
+    words = sentence.split() 
+    reversed_sentence = " ".join(reversed(words))  
+    return reversed_sentence
+
+sentence = input("sentence: ")
+print(reverse_words(sentence))
+
+def three(a):
+    arr=[]
+    for i in range(a):
+        elem = int(input())
+        arr.append(elem)
+    for i in range(len(arr) - 1):
+        if arr[i] == 3 and arr[i+1] == 3:
+            return True
+    return False
+a = int(input())
+if three(a):
+    print("True")
+else:
+    print("False")

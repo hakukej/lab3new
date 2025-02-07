@@ -86,5 +86,5 @@ def average_imdb_by_category(movies, category):
 
     return total_score / count if count > 0 else 0  
 
-category = input("Введите категорию: ")
+category = input("Category: ")
 print(average_imdb_by_category(movies, category))  

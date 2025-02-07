@@ -6,4 +6,4 @@ def is_prime(n):
 numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 23]
 prime_nums = list(filter(lambda x: is_prime(x), numbers))
 
-print("Prime numbers:", prime_nums)
+print(prime_nums)

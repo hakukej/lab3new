@@ -6,7 +6,7 @@ def histogram():
         arr.append(elem)
     for i in range(len(arr)):
         print("*" * arr[i])
-
+histogram()
 
 import random
 def guess():
@@ -28,7 +28,7 @@ def guess():
             print("Take a guess")
         else:
             print("Good job, " + name + "! You guessed my number in "+ str(count) +" guesses!")
-
+guess()
 
 def palin(s):
     s = s.lower()
@@ -52,7 +52,7 @@ def unique():
         if i not in answer:
             answer.append(i)
     print(answer)
-
+unique() 
 
 s = 'word'
 if palin(s):
